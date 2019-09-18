@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GSpot_logo"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="First Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFirstName"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Last Name"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textViewBirthday"
+        android:layout_width="153dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/editTextLastName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_vertical"
+        android:hint="Birthday"
+        android:inputType="date"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonDatePicker"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="188dp"
+        android:drawableLeft="@drawable/date_picker_icon" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="97dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center_vertical"
+        android:hint="Age"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/phone_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewBirthday"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Mobile Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pw_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pw_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/GSpot_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_sentence"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Talent_button"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Talent" />
+
+        <RadioButton
+            android:id="@+id/TalentSeeker_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Talent Seeker" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/password_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextConfirmPassword"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="14dp"
+        android:text="What kind of account do you want to create?" />
+
+    <TextView
+        android:id="@+id/create_btn"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@+id/radio_group"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundedloginbutton"
+        android:gravity="center"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@color/colorwhite"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Have_an_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_btn"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center"
+        android:text="Already have an account? Sign in here!" />
+
+
+</RelativeLayout>

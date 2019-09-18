@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "836352734434",
+    "firebase_url": "https://gigspot-900fe.firebaseio.com",
+    "project_id": "gigspot-900fe",
+    "storage_bucket": "gigspot-900fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836352734434:android:39f1bd579c7332cecf9abb",
+        "android_client_info": {
+          "package_name": "com.example.gigspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836352734434-t2eesn1n4cv1fhpl4dd5gklje78bl5o1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gigspot",
+            "certificate_hash": "12d45aebf2f5835947d183d1d94186ca63c10a49"
+          }
+        },
+        {
+          "client_id": "836352734434-figha6hc1rpir1g3iggo3er351tg6p27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdFgsZaLgOpjofQkCsboxpKe3HxIsmbeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836352734434-figha6hc1rpir1g3iggo3er351tg6p27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="An email has been sent to"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We require that you confirm your email address before you can apply to gigs. Please check your inbox for the confirmation link. If you can't find it, use the button below to send a new email with a new confirmation link."
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/resend_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resend confirmation email"
+        android:background="@drawable/roundedloginbutton"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textColor="@color/colorwhite"
+        android:textStyle="bold"/>
+
+</LinearLayout>
